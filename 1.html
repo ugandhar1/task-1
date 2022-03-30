@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Empoddy Technologies</title>
+    </head>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+
+        }
+        .frist-head{
+            background-image:url(images.jpg);
+            height:300px;
+            text-align: center;
+            color: rgb(247, 243, 243);
+            padding-top: 100px;
+            
+        }
+        button{
+            height: 50px;
+            width: 120px;
+            background-color: rgb(58, 56, 56);  
+            color: rgba(240, 248, 255, 0.747);
+        }
+
+        .flex-container1{
+        background-color: rgba(184, 187, 190, 0.733);
+        text-align: center;
+        display: flex;
+        text-align: justify;
+        padding-right:50px;
+        padding-left: 100px;
+        }
+        .flex-r{
+
+            flex: 1;
+            padding: 20px;
+            
+        }
+    
+        .flex-l{
+            flex:1;
+            padding: 20px;
+        }
+
+@media screen and (max-width: 768px){
+         .flex-container1{
+             flex-direction: column;
+         }   
+        }
+    h3{
+        text-align: center;
+        background-color: rgba(184, 187, 190, 0.733); 
+        padding-top: 20px;
+    }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(112, 116, 121, 0.733);
+}
+.responsive{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      height: auto;
+      background-color: #f3f3fa;
+      text-align: center;
+      margin:20px;
+      padding:20px;
+      transition: -3.s;
+}
+.digital{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bottom{
+    display:flex;
+    flex-wrap: wrap;
+}
+.content1{
+    display: flex;
+    text-align: center;
+    background-color: blue;
+    flex: 1;
+    padding: 100px;
+    color: aliceblue;
+    line-height: 20px;
+}
+.content2{
+    display: flex;
+    text-align: center;
+    flex: 1;
+    background-color: rgb(51, 47, 47);
+    padding:100px;
+    color: aliceblue;
+    line-height: 20px;
+}
+.bottom-line{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+.bottom-r{
+    flex: 1;
+}
+.bottom-l{
+    flex: 1;
+}
+
+    </style>
+<body>
+    <div class="frist-head">
+        <h1>Welcome to Assignment</h1><br>
+        <p>Lorem ipsum,dolor sit amet consectetur adipiscing elit.Adipisci eum error earum soluta voluptatum nisi<br>laborism eos saepe asperiores dolorum</p><br>
+        <button type="submit">Read More</button>
+    </div>
+    
+    <h3>Web & Application Development</h3>
+    <div class="flex-container1">
+
+        <div class="flex-r">
+            <p>In publishing and graphic design, Lorem cote the visual <br>form of a document or a typeface withoutIn Lorem ipsum <br>sit amet
+        </p>
+    </div>
+        <div class="flex-l">
+            <p>
+                obcaecati alias quidem, accusamus mollitia autem q<br>publishing and graphic design, Lorem commonly used to<br>demonstrate the visual form of a document or a typeface<br>
+            </p>
+        </div>
+
+    </div>
+<div class="container">
+    <div class="responsive">
+        <div class="img-box">
+            <img src="web-develoment.jpg" alt="Cinque Terre" width="200" height="100">
+            <span class="header-text"><strong>Web-develoment</strong></span>
+            <p>Add a description of the image here Prototyping offering of Development Services. Innovation as a Service. Blockchain and Real World Applications. The Disruptive Force of VR, AR, MR ...</p>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="img-box">
+            <img src="app-development.png" alt="Forest" width="200" height="100">
+            <span class="header-text"><strong>Mobile Applications</strong></span>
+            <p>Add a description of the image herePrototyping offering of Development Services. Innovation as a Service. Blockchain and Real World Applications. The Disruptive Force of VR, AR, MR ...</p>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="img-box">
+            <img src="tech.jpg" alt="Northern Lights" width="200" height="100">
+            <span class="header-text"><strong>Tech Marketing</strong></span>
+            <p>Add a description of the image here Prototyping offering of Development Services. Innovation as a Service. Blockchain and Real World Applications. The Disruptive Force of VR, AR, MR ...</p>
+        </div>
+    </div>
+
+</div>
+
+<div class="digital">
+    <h2><strong>We handle all of your digital needs</strong></h2><br>
+    <p>Lorem ipsum is text Lorem ipsum,dolor sit amet consectetur adipiscing elit.Adipisci eum error earum soluta volupt</p>
+</div>
+<div class="bottom">
+    <div class="content1">
+        <span class="header-text"><strong>Contact Us</strong>
+            <p>Lorem ipsum is text Lorem ipsum,dolor sit amet consectetur adipiscing elit.Adipisci eum error earum soluta volupt<br>
+            <br>contact@Empoddy.com</p>
+    </div>
+    <div class="content2">
+        <span class="header-text"><strong>About Our Company</strong>
+        <p>Lorem ipsum is text Lorem ipsum,dolor sit amet consectetur adipiscing elit.Adipisci eum error earum soluta volupt<br>
+            Lorem ipsum is text Lorem ipsum,dolor sit amet consectetur adipiscing elit.Adipisci eum error earum soluta volupt</p>
+   </div>
+</div>
+<div class="bottom-line">
+    <div class="bottom-r">
+        <span class=" header-text"><strong>Empoddy Technologies</strong></span>
+    </div>
+    <div class="bottom-l">
+        <span class="header-text"><strong>Project By <i style="color:blue">Empoddy</i></strong></span>
+    </div>
+</div>
+</body>
+</html>
